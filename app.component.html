@@ -1,0 +1,10 @@
+<h2>User Registration</h2>
+<form (ngSubmit)="submit()">
+<input type="text" placeholder="Name" [(ngModel)]="user.name" name="name" required />
+<br />
+<input type="email" placeholder="Email" [(ngModel)]="user.email" name="email" required />
+<br />
+<input type="text" placeholder="Phone" [(ngModel)]="user.phone" name="phone" required />
+<br />
+<button type="submit">Submit</button>
+</form>
